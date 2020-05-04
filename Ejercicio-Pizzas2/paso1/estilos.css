@@ -1,0 +1,38 @@
+
+.impar {
+    background-color: lightgray;
+}
+
+.par {
+    background-color: aliceblue;
+}
+
+.container {
+    text-align: center;
+    display: grid;
+    grid-template-columns: 150px auto;
+    grid-template-rows: 50vh auto;
+}
+
+
+.container2 {
+    text-align: center;
+    display: grid;
+    grid-template-columns: 150px auto;
+    grid-template-rows: 50vh auto;
+}
+
+#tabla {
+    border: 1px solid black;
+    overflow: auto;
+    width: 100%;
+ }
+
+#detallepizza {
+    align-items: right;
+}
+
+#imagenpizzas {
+    width: 150px;
+    height: 150px;
+}
